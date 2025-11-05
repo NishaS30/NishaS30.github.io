@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>/404/</loc>
+<loc>http://localhost:4000/%22/404/</loc>
 </url>
 <url>
-<loc>/categories/</loc>
+<loc>http://localhost:4000/%22/categories/</loc>
 </url>
 <url>
-<loc>/</loc>
+<loc>http://localhost:4000/%22/</loc>
 </url>
 <url>
-<loc>/research/</loc>
+<loc>http://localhost:4000/%22/research/</loc>
 </url>
 <url>
-<loc>/tags/</loc>
+<loc>http://localhost:4000/%22/tags/</loc>
 </url>
 <url>
-<loc>/talks/</loc>
+<loc>http://localhost:4000/%22/talks/</loc>
 </url>
 <url>
-<loc>/teaching/</loc>
+<loc>http://localhost:4000/%22/teaching/</loc>
 </url>
 <url>
-<loc>/news/</loc>
+<loc>http://localhost:4000/%22/news/</loc>
 </url>
 </urlset>
