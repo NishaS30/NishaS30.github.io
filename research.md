@@ -2,14 +2,15 @@
 author_profile: true
 title: Research
 permanentlink: /_pages/research.md
-classes: wide
 -<!-- layout: no-title-post -->
+classes: wide
 ---
 
 ## Preprints
 
-1. A simple range characterization for spherical mean transform in even dimensions and its applications, with Divyansh Agrawal, Gaik Ambartsoumian and Venkateswaran P. Krishnan, 2025, [arxiv](https://arxiv.org/abs/2504.21824)
-2. A simple range characterization for spherical mean transform in odd dimensions and its applications, with Divyansh Agrawal, Gaik Ambartsoumian and Venkateswaran P. Krishnan, 2023, [arxiv](https://arxiv.org/abs/2310.20702) 
+1. A unified range characterization for the spherical mean transform, with Pradipta Chatterjee and Abhilash Tushir, 2026, [arxiv](https://arxiv.org/abs/2605.27034)
+2. A simple range characterization for spherical mean transform in even dimensions and its applications, with Divyansh Agrawal, Gaik Ambartsoumian and Venkateswaran P. Krishnan, 2025, [arxiv](https://arxiv.org/abs/2504.21824)
+3. A simple range characterization for spherical mean transform in odd dimensions and its applications, with Divyansh Agrawal, Gaik Ambartsoumian and Venkateswaran P. Krishnan, 2023, [arxiv](https://arxiv.org/abs/2310.20702) 
 
 ## Publications
 
