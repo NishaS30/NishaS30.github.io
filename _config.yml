@@ -1,0 +1,69 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Nisha Singhal
+email: nisha2020@tifrbng.res.in
+description: >- # this means to ignore newlines until "baseurl:"
+  My personal website as a phd student in inverse problems at TIFR-CAM, Bengaluru, India.  
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "https://nishas30.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: pretty
+
+author:
+  name   : "Nisha Singhal"
+  avatar : "assets/images/profile.jpg"
+  show_name_under_avatar: false
+  # avatar : "https://www.math.tifrbng.res.in/people/nisha2020/image_normal"
+  bio    : ""
+  links:
+    - label: "TIFR CAM, Bangalore"
+      icon: "fas fa-fw fa-map-marker"
+      url: "https://www.math.tifrbng.res.in"
+    - label: "ORCID"
+      icon: "fab fa-fw fa-orcid"
+      url: "https://orcid.org/0009-0006-3005-1986"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:nisha2020@tifrbng.res.in"
+#    - label: "Google Scholar"
+#      icon: "fas fw fa-graduation-cap"
+#      url: "/"
+
+# Build settings
+markdown: kramdown
+#remote_theme: "Arpit-Babbar/minimal-mistakes"
+theme: minimal-mistakes-jekyll
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+
+include:
+  - _pages
+
+# Source - https://github.com/mmistakes/minimal-mistakes/issues/1740#issuecomment-503997931
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      # type: posts
+    values:
+      layout: single
+      author_profile: true
+      # read_time: true
+      # comments: # true
+      # share: true
+      # related: true
+
