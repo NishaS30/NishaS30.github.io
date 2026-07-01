@@ -1,0 +1,54 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+
+backend:
+  name: github
+  repo: NishaS30/NishaS30.github.io
+
+media_folder: /assets/images/
+# public_folder: /media
+
+collections:
+  - name: pages
+    label: Pages
+    files:
+      - name: Index
+        label: Home Page
+        file: index.md
+        fields:
+          - { label: author_profile, name: author_profile, widget: boolean, default: true, comment: "Turning this off will probably not show your photo on this page." }
+          - { label: title, name: title, widget: string }
+          - { label: permanentlink, name: permanentlink, widget: string }
+          - { label: Body, name: body, widget: richtext }
+      - name: Research
+        label: Research Page
+        file: research.md
+        fields:
+          - { label: author_profile, name: author_profile, widget: boolean, default: true, comment: "Turning this off will probably not show your photo on this page." }
+          - { label: title, name: title, widget: string }
+          - { label: permanentlink, name: permanentlink, widget: string }
+          - { label: Body, name: body, widget: richtext }
+      - name: Talks
+        label: Talks Page
+        file: talks.md
+        fields:
+          - { label: author_profile, name: author_profile, widget: boolean, default: true, comment: "Turning this off will probably not show your photo on this page." }
+          - { label: title, name: title, widget: string }
+          - { label: permanentlink, name: permanentlink, widget: string }
+          - { label: Body, name: body, widget: richtext }
+      - name: Teaching
+        label: Teaching Page
+        file: teaching.md
+        fields:
+          - { label: author_profile, name: author_profile, widget: boolean, default: true, comment: "Turning this off will probably not show your photo on this page." }
+          - { label: title, name: title, widget: string }
+          - { label: permanentlink, name: permanentlink, widget: string }
+          - { label: Body, name: body, widget: richtext }
+
+  - name: posts
+    label: Posts
+    label_singular: Post
+    folder: /content/posts
+    fields:
+      - { label: Title, name: title, widget: string }
+      - { label: Date, name: date, widget: datetime, type: date }
+      - { label: Body, name: body, widget: richtext }
