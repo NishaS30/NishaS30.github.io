@@ -2,8 +2,8 @@
 author_profile: true
 title: Research
 permanentlink: /_pages/research.md
--<!-- layout: no-title-post -->
 classes: wide
+-<!-- layout: no-title-post -->
 ---
 
 ## Preprints
@@ -19,7 +19,7 @@ classes: wide
 
 ## Talks
 
-[I have also presented some of these works.](/talks.md)
+[I have also presented some of these works.](/talks)
 {% comment %}
 
 {% endcomment %}
