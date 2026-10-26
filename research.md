@@ -1,9 +1,10 @@
 ---
+# Turning this off will probably not show your photo on this page.
 author_profile: true
 title: Research
 permanentlink: /_pages/research.md
-classes: wide
 -<!-- layout: no-title-post -->
+classes: wide
 ---
 
 ## Preprints
@@ -16,10 +17,3 @@ classes: wide
 1. A simple range characterization for spherical mean transform in odd dimensions and its applications, with Divyansh Agrawal, Gaik Ambartsoumian and Venkateswaran P. Krishnan, 2026, [Inverse Problems and Imaging](https://www.aimsciences.org/article/doi/10.3934/ipi.2026047),  [arxiv](https://arxiv.org/abs/2310.20702) 
 2. d-plane transform: unique and non-unique continuation, with Divyansh Agrawal, 2025, [Proceedings of American Mathematical Society](http://ams.org/journals/proc/2025-153-09/S0002-9939-2025-17262-8/viewer/), [arxiv](https://arxiv.org/abs/2502.07249) 
 3. On the null space of the backprojection operator and Rubin's conjecture for the spherical mean transform, with Divyansh Agrawal, Gaik Ambartsoumian and Venkateswaran P. Krishnan, 2024, [Inverse Problems](https://iopscience.iop.org/article/10.1088/1361-6420/ad8fc8/meta), [arxiv](https://arxiv.org/abs/2406.15815)
-
-## Talks
-
-[I have also presented some of these works.](/talks)
-{% comment %}
-
-{% endcomment %}
